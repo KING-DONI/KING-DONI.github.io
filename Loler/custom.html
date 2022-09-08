@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>title</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="lib/jquery-ui.js"></script>
+    <script src="js/home.js"></script>
+    <script src="lib/jquery.ajax-cross-origin.min.js"></script>
+  </head>
+  <body>
+    <div class="body-content" id="body_content">
+      <div class="searcher">
+        <input id="search_summoner_input" placeholder="소환사명을 입력하세요..">
+      </div>
+      <div class="user-repr-info">
+        <div class="profile-icon-wrapper">
+          <img id="current_summoner_profile_icon_img" src="http://ddragon.leagueoflegends.com/cdn/9.24.2/img/profileicon/0.png">
+          <span class="summoner-level" id="current_summoner_level">-</span>
+        </div>
+        <div class="user-repr-info-wrapper">
+          <span class="summoner-name" id="current_summoner_name">SummonerName</span>
+          <div class="info-detail-wrapper" id="tier_info_detail_wrapper">
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="mastery-summary">
+          <div class="total-mastery">
+            <span id="total_mastery_label">숙련도 총합</span>
+            <span id="total_mastery">- 점</span>
+          </div>
+          <div class="detail-mastery">
+            <div class="mastery-amount-box">
+              <img src="img/mastery/Champion_Mastery_Level_7_Flair.png" class="champion_mastery_img">
+              <span class="champion-mastery-level-amount" id="champion_mastery7_total_value">-</span>
+            </div>
+            <div class="mastery-amount-box">
+              <img src="img/mastery/Champion_Mastery_Level_6_Flair.png" class="champion_mastery_img">
+              <span class="champion-mastery-level-amount" id="champion_mastery6_total_value">-</span>
+            </div>
+            <div class="mastery-amount-box">
+              <img src="img/mastery/Champion_Mastery_Level_5_Flair.png" class="champion_mastery_img">
+              <span class="champion-mastery-level-amount" id="champion_mastery5_total_value">-</span>
+            </div>
+            <div class="mastery-amount-box">
+              <img src="img/mastery/Champion_Mastery_Level_4_Flair.png" class="champion_mastery_img">
+              <span class="champion-mastery-level-amount" id="champion_mastery4_total_value">-</span>
+            </div>
+            <div class="mastery-amount-box">
+              <img src="img/mastery/Champion_Mastery_Level_3_Flair.png" class="champion_mastery_img">
+              <span class="champion-mastery-level-amount" id="champion_mastery3_total_value">-</span>
+            </div>
+          </div>
+          <div class="champion-mastery-list" id="champion_mastery_list">
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

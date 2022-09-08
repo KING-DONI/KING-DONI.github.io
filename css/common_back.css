@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*===================================================================
+* INFORMATION
+* -------------------------------------------------------------------
+* @Author :  
+* @File Name : common.css
+* @Description : 
+* @Create Date : 
+* @Last Update Date :N/A
+* @History : N/A
+* ====================================================================*/
+
+/* ====================== */
+/* Reset */
+/* ====================== */
+/* ===== Default ===== */
+hr, caption {display:none;}
+dl,ul,ol,menu,li {list-style:none;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,label,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0;box-sizing:border-box;}
+body, * {font-family:"Noto Sans KR";font-size:62.5%;color:#555;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;word-break:keep-all;-webkit-appearance:none;-webkit-border-radius:0;}
+html, body {-webkit-margin-start:0;-webkit-padding-start:0px;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;width:100%;height:100%;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";content:none;}
+a {text-decoration:none;-webkit-tap-highlight-color:#fff;}
+a img {border:none;}
+address, caption, cite, code, dfn, em, th, var, i {font-style:normal;font-weight:normal;}
+a, button, input, textarea, select {-webkit-tap-highlight-color:transparent;}
+a, button, input:focus, select:focus, textarea:focus {outline:0 none;}
+:root {overflow-wrap:break-word;word-break:break-word;}
+
+/* ====================== */
+/* Align */
+/* ====================== */
+/* align */
+.left {float:left;}
+.right {float:right;}
+.tL {text-align:left;}
+.tR {text-align:right;}
+.tC {text-align:center;}

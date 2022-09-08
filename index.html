@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/font.css" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/common.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <title>테스트서버</title>
+</head>
+<body>
+  <div id="wrap">
+    <header data-include="template/include/header.html"></header>
+    <div id="container">
+      <main>
+        <div class="contents">
+          <div class="ctsBack">
+            <!-- <div class="myStats">
+              <h2>내 전적 검색</h2>
+            </div> -->
+            <div class="invite">
+              <h2>LBTI 가입하려면?</h2>
+              <div class="inviteUrl">
+                <dl>
+                  <dt><span class="tIcon kakao">오픈톡</span></dt>
+                  <dd><a href="https://open.kakao.com/o/gIArRiTd" target="_blank">https://open.kakao.com/o/gIArRiTd</a></dd>
+                </dl>
+                <dl>
+                  <dt><span class="tIcon discord">디스코드 서버</span></dt>
+                  <dd><a href="https://discord.gg/aA4sgMps" target="_blank">https://discord.gg/aA4sgMps</a></dd>
+                </dl>
+              </div>
+            </div>
+            <div class="todayQoute">
+              <h2>오늘의 명언</h2>
+              <button type="button" id="btnQuRefresh" class="btnRefresh">새로고침</button>
+              <div class="qouteBox">
+                <strong id="quote">quote</strong>
+                <p id="author">author</p>
+              </div>
+            </div>
+            <!-- 명언 전체 뿌릴 때
+            <div id="quoteList" class="quoteList">
+              <ul></ul>
+            </div> -->
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer data-include="template/include/footer.html"></footer>
+  </div>
+  
+  <script src="js/quote.js"></script>
+</body>
+</html>
